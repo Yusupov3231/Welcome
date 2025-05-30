@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
-*{
-margin: 0;
-padding: 0;
-list-style: none;
-text-decoration: none;
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
-.header{
+
+.header {
     background: url(https://i.imgur.com/RurqKDM.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -16,29 +18,33 @@ text-decoration: none;
     align-items: center;
     justify-content: center;
 }
-.header h1{
+
+.header h1 {
     color: #FFFFFF;
     font-size: 50px;
     font-family: Cal Sans;
     text-shadow: 6px 6px 10px #000;
 }
-.header p{
+
+.header p {
     color: #FFFFFF;
     margin: 40px 0;
     font-size: 20px;
     font-family: Cal Sans;
     text-shadow: 6px 6px 10px #000;
 }
-.header a{
-color: #FFFFFF;
-background-color: #0096FF;
-padding: 15px 35px;
-border-radius: 10px;
-font-size: 20px;
-font-family: Cal Sans;
-text-shadow: 6px 6px 10px blue;
+
+.header a {
+    color: #FFFFFF;
+    background-color: #0096FF;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Cal Sans;
+    text-shadow: 6px 6px 10px blue;
 }
-.footer{
+
+.footer {
     background: url(redgradient.webp);
     background-position: center center;
     background-repeat: no-repeat;
@@ -50,11 +56,13 @@ text-shadow: 6px 6px 10px blue;
     justify-content: center;
     position: relative;
 }
-.footer img{
+
+.footer img {
     position: absolute;
     left: 30px;
 }
-.footer .card{
+
+.footer .card {
     background-color: #FFFFFF;
     width: 20%;
     height: 130px;
@@ -65,25 +73,29 @@ text-shadow: 6px 6px 10px blue;
     align-items: center;
     margin: 0 15px;
 }
-.footer .card h3{
-margin-bottom: 20px;
-font-size: 28px;
-font-family: Cal Sans;
+
+.footer .card h3 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: Cal Sans;
 }
-.footer .card p{
-font-size: 18px;
-font-family: Cal Sans;
+
+.footer .card p {
+    font-size: 18px;
+    font-family: Cal Sans;
 }
-.end{
+
+.end {
     height: 10vh;
     background-color: #2C2C2C;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.end p{
+
+.end p {
     color: #FFFFFF;
     font-size: 20px;
-        font-family: Cal Sans;
-        text-shadow: 6px 6px 10px #000;
+    font-family: Cal Sans;
+    text-shadow: 6px 6px 10px #000;
 }
